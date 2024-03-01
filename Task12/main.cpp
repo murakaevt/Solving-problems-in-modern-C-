@@ -1,0 +1,52 @@
+//Напишите программу, которая определит и выведет число, меньшее
+//1 000 000, порождающее наибольшую последовательность Коллатца, и длину
+//этой последовательности
+#include <iostream>
+#include <chrono>
+
+using namespace std::chrono;
+using namespace std::literals;
+
+class LogDuration {
+public:
+    LogDuration() {
+    }
+
+    ~LogDuration() {
+        const auto end_time = steady_clock::now();
+        const auto dur = end_time - start_time_;
+        std::cout << "     " << duration_cast<milliseconds>(dur).count() << " ms"s << std::endl;
+    }
+
+private:
+    // В переменной будет время конструирования объекта LogDuration
+    const steady_clock::time_point start_time_ = steady_clock::now();
+};
+
+void Programm (){   
+    uint64_t max_size = 0;
+    uint64_t number = 0;
+   for(int i = 2; i < 1000000; i++){
+ uint64_t j = i;
+ uint64_t counter = 0;
+    while(j != 1){
+if(j % 2 == 0){
+j = j/2;
+counter++;
+} else{
+j = (3*j + 1);
+counter++;
+}
+    }
+    if(counter > max_size){
+        max_size = counter;
+        number = i;
+    }
+   }
+   std::cout << "A smaller number 1,000,000, generating the largest Collatz sequence: " << number << "  length this sequence: " << max_size;
+}
+
+int main() {
+    LogDuration log;
+Programm();
+}
