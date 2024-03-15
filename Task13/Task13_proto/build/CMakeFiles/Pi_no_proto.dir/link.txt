@@ -1,0 +1,3 @@
+D:\Programs\mingw64\bin\cmake.exe -E rm -f CMakeFiles\Pi_no_proto.dir/objects.a
+D:\Programs\mingw64\bin\ar.exe qc CMakeFiles\Pi_no_proto.dir/objects.a @CMakeFiles\Pi_no_proto.dir\objects1.rsp
+D:\Programs\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Pi_no_proto.dir/objects.a -Wl,--no-whole-archive -o Pi_no_proto.exe -Wl,--out-implib,libPi_no_proto.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Pi_no_proto.dir\linkLibs.rsp

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "nilakantha.proto";
+
+package pi_proto;
+
+message Pi {
+    double value = 1;
+    Nilakantha nilakantha = 2;
+    uint64 input_number = 3;   
+}
+
+message ContainerPi {
+    repeated Pi all_pi = 1;
+}

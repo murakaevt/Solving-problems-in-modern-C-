@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/source/repos/VSCode/Book tasks C++/Task13/Task13/build",
+  "command": "D:\\Programs\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\Pi_no_proto.dir\\pi_no_proto.cpp.obj -c \"E:\\source\\repos\\VSCode\\Book tasks C++\\Task13\\Task13\\pi_no_proto.cpp\"",
+  "file": "E:/source/repos/VSCode/Book tasks C++/Task13/Task13/pi_no_proto.cpp",
+  "output": "CMakeFiles/Pi_no_proto.dir/pi_no_proto.cpp.obj"
+},
+{
+  "directory": "E:/source/repos/VSCode/Book tasks C++/Task13/Task13/build",
+  "command": "D:\\Programs\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\Pi_no_proto.dir\\pi_searcher.cpp.obj -c \"E:\\source\\repos\\VSCode\\Book tasks C++\\Task13\\Task13\\pi_searcher.cpp\"",
+  "file": "E:/source/repos/VSCode/Book tasks C++/Task13/Task13/pi_searcher.cpp",
+  "output": "CMakeFiles/Pi_no_proto.dir/pi_searcher.cpp.obj"
+},
+{
+  "directory": "E:/source/repos/VSCode/Book tasks C++/Task13/Task13/build",
+  "command": "D:\\Programs\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\Pi_no_proto.dir\\input_reader.cpp.obj -c \"E:\\source\\repos\\VSCode\\Book tasks C++\\Task13\\Task13\\input_reader.cpp\"",
+  "file": "E:/source/repos/VSCode/Book tasks C++/Task13/Task13/input_reader.cpp",
+  "output": "CMakeFiles/Pi_no_proto.dir/input_reader.cpp.obj"
+}
+]

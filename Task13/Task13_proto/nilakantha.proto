@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package pi_proto;
+
+message Nilakantha {
+uint64 series_length = 1;
+}
