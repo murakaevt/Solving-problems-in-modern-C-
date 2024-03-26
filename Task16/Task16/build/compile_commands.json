@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/source/repos/VSCode/Book tasks C++/Task16/Task16/build",
+  "command": "D:\\Programs\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\IPv4.dir\\ipv4.cpp.obj -c \"E:\\source\\repos\\VSCode\\Book tasks C++\\Task16\\Task16\\ipv4.cpp\"",
+  "file": "E:/source/repos/VSCode/Book tasks C++/Task16/Task16/ipv4.cpp",
+  "output": "CMakeFiles/IPv4.dir/ipv4.cpp.obj"
+},
+{
+  "directory": "E:/source/repos/VSCode/Book tasks C++/Task16/Task16/build",
+  "command": "D:\\Programs\\mingw64\\bin\\g++.exe   -g -std=gnu++20 -o CMakeFiles\\IPv4.dir\\main.cpp.obj -c \"E:\\source\\repos\\VSCode\\Book tasks C++\\Task16\\Task16\\main.cpp\"",
+  "file": "E:/source/repos/VSCode/Book tasks C++/Task16/Task16/main.cpp",
+  "output": "CMakeFiles/IPv4.dir/main.cpp.obj"
+}
+]

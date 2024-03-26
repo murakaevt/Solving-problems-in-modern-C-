@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package Proto;
+
+message IPv4 {
+    repeated string list = 1;
+}
