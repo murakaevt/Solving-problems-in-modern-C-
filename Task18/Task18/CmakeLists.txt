@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.11)
+
+project(Minimum CXX)
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(minimum tests.h functions.h main.cpp)
+
+if(CMAKE_SYSTEM_NAME MATCHES "^MINGW")
+set(SYSTEM_LIBS -lstdc++)
+else()
+set(SYSTEM_LIBS)
+endif()
+
+target_link_libraries(minimum ${SYSTEM_LIBS})
